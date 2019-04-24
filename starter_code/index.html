@@ -15,56 +15,50 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-6 col-sm-8 col-md-8 col-lg-4 ">
-          <img class="logo" src="./images/slack-logo.png" alt="slack_logo">
-        </div>
-        <div class="col-6 col-sm-4 col-md-4  col-lg-8">
-          <i class="fas fa-bars menu-sm"></i>
-          <div class="menu-l">
-            <ul>
-              <li>Why Slack?</li>
-              <li>Pricing</li>
-              <li>About Us</li>
-              <li class="border-rounded">Your Workspaces</li>
-            </ul>
-          </div>
+  <header class="navigation align-items-center">
+    <a href="#">
+      <img class="logo" src="./images/slack-logo.png" alt="slack_logo">
+    </a>
 
-        </div>
+    <nav>
+      <i class="fas fa-bars menu-sm"></i>
+      <div class="menu-l">
+        <ul>
+          <li> <a href="#">Why Slack?</a></li>
+          <li> <a href="#">Pricing</a></li>
+          <li> <a href="#">About Us</a></li>
+          <li class="border-rounded"><a href="#">Your Workspaces</a></li>
+        </ul>
       </div>
-    </div>
-
-
-  </nav>
+    </nav>
+  </header>
   <div class="separator"></div>
   <header>
     <div class="container">
-      <div class="row mobile">
-        <div class="col-md-12 col-l-6 col-xl-6">
+      <div class="row ">
+        <div class="col-md-12 col-l-6 col-xl-6 order-1 order-xl-2">
           <header>
             <h1>Where Work Happens</h1>
-            <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales
-              contract, finalize
-              next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.
-            </p>
           </header>
-        </div>
-        <div class="col-md-12 col-l-6 col-xl-6">
+          <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales
+            contract, finalize
+            next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.
+          </p>
           <form action="/" method="POST">
             <input type="email" name="email" placeholder="Email address">
             <button type="button" name="button">GET STARTED</button>
           </form>
           <p class="text-center">Already using Slack? <a href="#">Sign in</a></p>
         </div>
-        <div class="col-md-12 col-l-6 col-xl-6">
+
+
+        <div class="col-md-12 col-l-6 col-xl-6 order-2 order-xl-1">
           <figure>
             <img src="./images/home_talking.png" alt="home_work_happening">
           </figure>
         </div>
       </div>
-      <div class="row xl">
+      <!--       <div class="row xl">
         <div class="col-xl-6">
           <figure>
             <img src="./images/home_talking.png" alt="home_work_happening">
@@ -86,7 +80,7 @@
           <p class="text-center">Already using Slack? <a href="#">Sign in</a></p>
         </div>
 
-      </div>
+      </div> -->
     </div>
 
 

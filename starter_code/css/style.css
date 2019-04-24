@@ -12,12 +12,23 @@ html {
 }
 
 
-nav {
+/* nav {
   padding: 20px;
   position: fixed;
   top: 0;
   background: white;
   z-index: 1;
+  width: 100%;
+} */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  background: white;
+  z-index: 678;
   width: 100%;
 }
 
@@ -36,8 +47,14 @@ nav {
   padding: 10px 6px;
 }
 
-nav img {
-  width: 50%;
+.navigation img {
+  width: 100%;
+}
+
+.navigation a {
+  width: 150px;
+  margin-top: 4px;
+  color: black
 }
 
 .text-right {
